@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.207) url(/img/lake-1679708.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/*navigation starts here */
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgb(27 0 0 / 68%);
+
+
+
+}
+
+.navbar .navtools .logo img {
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 60pc;
+    margin-left: 20px;
+}
+
+.navbar .navtools {
+    list-style: none;
+    width: 50%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+
+
+}
+
+.navbar .navtools li {
+    list-style: none;
+}
+
+.navbar .navtools li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px 7px;
+}
+
+.navbar .navtools li a:hover {
+    text-decoration: underline;
+    background: black;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.navbar .rightnav {
+
+    width: 50%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 21px;
+    border-radius: 20pc;
+    border: 1px solid gray;
+    width: 33%;
+    margin-right: 20px;
+    COLOR: BLACK;
+}
+
+.btn-sm {
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 12px;
+    cursor: pointer;
+    background: none;
+    vertical-align: center;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+
+
+/*----nav section ------*/
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 0%;
+    padding: 0px 0px 50px;
+    min-height: 750px;
+}
+
+.first-half {
+    width: 70%;
+}
+
+.text-big {
+    font-size: calc(20px + 2vw);
+    padding: 20px 10px;
+}
+
+.h-main {
+    font-size: calc(10px + 4vw);
+    font-style: italic;
+}
+
+.p-main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: calc(20px + 0.5vw);
+    padding: 5% 10%;
+}
+
+.second-half {
+    width: 30%;
+}
+
+.second-half img {
+    /* width: 240px;
+    height: 240px; */
+    height: calc(240px + 2vh);
+    width: calc(240px + 2vw);
+    display: block;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 30pc;
+}
+
+.btn {
+    font-size: 20px;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+
+/*--------*/
+.secright {
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+    margin-top: calc(10px + 1vh);
+}
+
+.thumbnil .secimg {
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.paras {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 81px;
+
+}
+
+.secleft {
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 600px;
+
+}
+
+section {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text-small {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: calc(20px + 0.5vw);
+}
+
+/*--------------*/
+/*Contact starts here */
+.contact {
+    background-color: rgb(234, 250, 252);
+    height: 700px;
+}
+
+.contact .form {
+
+    max-width: 1000px;
+    margin: 0px auto;
+    width: 80%;
+}
+
+.input-tag {
+    width: 100%;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.submit {
+    color: black;
+    border: 3px solid #000;
+}
+
+/****--------------------****/
+
+footer {
+    padding: 40px 0px;
+    background: rgb(164, 156, 151);
+}
